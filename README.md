@@ -18,11 +18,38 @@ The anticipated performance summary tables:
   - School Summary: District Summary that compares each school.
   - School Size Summary: Schools sorted according to their size, determined by the number of students.
   - Spending Summary: Schools sorted according to their budget per student.
-  
 
+# Results:
+## District Performance Summary
+![District Summary](/Resources/initial_district_summary.png)
 
+ - Overall passing percentage is so much lower than the individual passing percentage for each subject.
 
-## Results:
+## School Type Performance Summary
+![Sorted by School Type](/Resources/initial_school_type_summary.png)
+ - The charter schools are performing alot better than the district schools.
+
+## School Performance Summary
+#### Top 5 Best
+![Top 5 best](/Resources/initial_top5_best_summary.png)
+ - The best schools are all charter schools and have 90% of their students Passing.
+#### Top 5 Worst
+![Top 5 worst](/Resources/initial_top5_worst_summary.png) 
+ - The worst schools are all district schools and have 53% of their students Passing.
+ - The best performing schools have fewer students than the worst performing schools. I wonder if this is related to the student teacher ratio. Number of teachers per school is not in the data set.
+
+## Performance Summary Sorted by School Size 
+![Sorted by school size](/Resources/initial_school_size_summary.png)
+ - The small and medium schools are doing so much better than the large and extra large schools, a drastic difference. it looks identical to the top 5 best/worst comparison.
+
+## Performance Summary Sorted by Spending
+![Sorted by spending per student](/Resources/initial_spending_summary.png)
+ - Spending ranges shows the budget amount per student has an inverse correlation to the % Passing Overall. The problem is not "Not enough money".
+
+### Ending Analysis:
+ - The Charter schools are smaller than the District schools.
+ - The Charter schools have a lower budget than the Distrct schools. 
+ - The Charter schools are outperforming the District schools. 
 
 ## Challenge:
-PyCitySchools.ipynb is the jupiter notebook I started the analysis in. 
+The PyCitySchools.ipynb notebook is an anlysis is as if all the data in the in the dataset is true. The PyCitySchools_Challenge_testing.ipynb notebook assumes that Thomas High School has some falsely reported math and reading scores for ninth graders in it, until that data can be verified it will not be used in the analysis. Those scores will be replaced with NaN values. How does this affect the analysis?
