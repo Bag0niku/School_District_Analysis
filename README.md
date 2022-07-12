@@ -51,5 +51,18 @@ The anticipated performance summary tables:
  - The Charter schools have a lower budget than the Distrct schools. 
  - The Charter schools are outperforming the District schools. 
 
-## Challenge:
+# Challenge:
 The PyCitySchools.ipynb notebook is an anlysis is as if all the data in the in the dataset is true. The PyCitySchools_Challenge_testing.ipynb notebook assumes that Thomas High School has some falsely reported math and reading scores for ninth graders in it, until that data can be verified it will not be used in the analysis. Those scores will be replaced with NaN values. How does this affect the analysis?
+
+### Challenge Results:
+Vary little actually changed. The removed data ended up being 461 students, or 1.17% of the total student population. The largest visible difference in the performance summary tables is the District Summary and the Top 5 Best Schools. 
+![New District Summary](/Resources/challenge_district_summary.png)
+ - The percent of overall passing students dropped by 0.3%, the percentage of students passing reading went down by 0.1%, and the average math score dropped by 0.1.
+ - Thomas High school dropped from #2 ranking to #3.
+   - 0.3% drop in overall passing students and passing reading
+   - 0.2% drop in students passing math
+   - 0.1 increase in average reading score
+![Top 5 Best Schools](/Resources/challenge_top5_best_summary.png)
+ - The 0.1% drop in overall passing students and those passing reading is also visible in the spending and school size Performance Summary Tables 
+![New Spending Performance Summary](/Resources/challenge_spending_summary.png)
+![New School Size Performance Summary](/Resources/challenge_school_size_summary.png)
