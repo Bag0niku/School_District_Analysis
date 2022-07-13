@@ -50,6 +50,7 @@ The anticipated performance summary tables:
  - The Charter schools are smaller than the District schools.
  - The Charter schools have a lower budget than the Distrct schools. 
  - The Charter schools are outperforming the District schools. 
+ - The amount of money a school spends does not determine a school's success.
 
 # Challenge:
 The PyCitySchools.ipynb notebook is an anlysis is as if all the data in the in the dataset is true. The PyCitySchools_Challenge_testing.ipynb notebook assumes that Thomas High School has some falsely reported math and reading scores for ninth graders in it, until that data can be verified it will not be used in the analysis. Those scores will be replaced with NaN values. How does this affect the analysis?
